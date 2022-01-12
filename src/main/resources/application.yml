@@ -1,0 +1,15 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          facebook:
+            client-id:
+            client-secret:
+          github:
+            client-id:
+            client-secret:
+            scope: user:email
+          google:
+            client-id:
+            client-secret:
